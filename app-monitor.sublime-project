@@ -1,0 +1,29 @@
+{
+	"folders":
+	[
+		{ "path": "." },
+		{ "name": "VC include", "path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.24.28314\\include" },
+		{ "name": "Windows include", "path": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um" },
+	],
+
+	"settings": 
+	{
+		"ms_build_configs":
+		[
+			{
+				"name": "Debug",
+				"outputs":
+				[
+					{ "path": "bin/Debug/app-monitor.exe" },
+				]
+			},
+			{
+				"name": "Release",
+				"outputs":
+				[
+					{ "path": "bin/Release/app-monitor.exe" },
+				]
+			},
+		]
+	}
+}
