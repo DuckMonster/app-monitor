@@ -12,7 +12,7 @@ int main()
 	console_open("app-monitor", 100, 100, 80, 40);
 	while(console_is_open())
 	{
-		console_rect(rect(point(0, 0), point(50, 50)), 'A', CLR_RED_0, CLR_GRAY_2);
+		console_fill(0, CLR_WHITE, CLR_GRAY_5);
 		console_update();
 	}
 	return 0;
